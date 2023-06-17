@@ -8,18 +8,18 @@
     --border-color:#E7E9FC;
 }
 
-
-
 body {
- font-family: "Roboto", sans-serif;  
-color: var(--main-color);
+font-family: "Roboto", sans-serif;  
+color: var(--grey-color);
+background-color: var(--title-color);
 }
 .list {
 list-style: none;
 }
-
-.address-link {
+.address {
 font-style: normal;
+} 
+.address-link {
 color: var(--grey-color);
 }
 
@@ -34,18 +34,25 @@ color: var(--grey-color);
 
 }
 .header-logo {
-font-family: 'Raleway';
+font-family: "Raleway", sans-serif;
+color: var(--accent-color);
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
  line-height: 1.17;
 align-items: center;
 letter-spacing: 0.03em;
-text-transform: uppercase;   
-}
+text-transform: uppercase;  
 
+}
+.link {
+text-decoration: none;
+}
+.logo {
+    color: var(--main-color);
+}
 .logo-accent {
- color: var(--accent-color);
+color: var(--accent-color);
 }
 
 .logo-accent-white {
@@ -56,6 +63,7 @@ text-transform: uppercase;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+color: var(--main-color);
 }
 
 .header-link:hover, .header-link:focus {
@@ -68,9 +76,6 @@ letter-spacing: 0.02em;
 color: var(--grey-color);
 }
 
-.mail:hover, .mail:focus {
-color: var(--link-color);
-}
 
 .hero-section, .footer-section {
 background: var(--main-color);
@@ -80,22 +85,21 @@ background: var(--main-color);
 font-size: 56px;
 line-height: 60px;
 text-align: center;
-letter-spacing: 1.07;
+letter-spacing: 1.02;
+line-height: 1.07;
 color: var(--title-color);
 
 }
 .hero-btn {
 background: var(--accent-color);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
 font-weight: 500;
 line-height: 1.5;
-align-items: center;
 letter-spacing: 0.04em;
 color: var(--title-color);
+cursor: pointer;
 }
 
-.hero-btn:hover, hero-btn:focus {
+.hero-btn:hover, .hero-btn:focus {
 background: var(--link-color);
 }
 .card-title {
@@ -103,6 +107,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+color: var(--main-color);
 }
 
 .card-text {
@@ -113,6 +118,9 @@ color: var(--grey-color);
 
 .team-section {
 background: var(--accent-color-white);
+}
+.section {
+background: var(--title-color));
 }
 
 .subtitle {
@@ -139,22 +147,24 @@ color: var(--grey-color);
 }
 .footer-text {
 line-height: 1.5;
- letter-spacing: 0.02em;
+letter-spacing: 0.02em;
 color: var(--accent-color-white);
 }
 .portfolio-btn {
 font-weight: 500;
 line-height: 1.5;
-display: flex;
-align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: var(--link-color);
+color: var(--accent-color);
 background: var(--accent-color-white);
 border: 1px solid var(--border-color);
-border-radius: 4px;
+cursor: pointer;
+
 }
-.portfolio-btn:hover {
-    color: var(--title-color);
+.portfolio-btn:hover, .portfolio-btn:focus {
+color: var(--title-color);
 background-color: var(--link-color);
+}
+.list {
+    list-style: none;
 }
