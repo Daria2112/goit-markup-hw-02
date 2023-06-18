@@ -61,7 +61,7 @@ color: var(--accent-color);
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--main-color);
+color: var(--title-color-black);
 }
 
 .header-link:hover, .header-link:focus {
@@ -76,7 +76,7 @@ color: var(--grey-color);
 
 
 .hero-section, .footer-section {
-background: var(--main-color);
+background: var(--title-color-black);
 }
 
 .hero-title {
@@ -130,20 +130,6 @@ text-transform: capitalize;
 color: var(--title-color-black);
 }
 
-.team-title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-text-align: center;
-letter-spacing: 0.02em;
-}
-
-.team-text {
-line-height: 1.5px;
-text-align: center;
-letter-spacing: 0.02em;
-color: var(--grey-color);
-}
 .footer-text {
 line-height: 1.5;
 letter-spacing: 0.02em;
