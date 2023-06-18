@@ -153,3 +153,6 @@ background-color: var(--link-color);
 .list {
 list-style: none;
 }
+.team-card {
+background-color: var(--title-color);
+}
