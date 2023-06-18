@@ -23,7 +23,7 @@ font-style: normal;
 color: var(--grey-color);
 }
 
-.address-link:hover, address-link:focus {
+.address-link:hover, .address-link:focus {
  color: var(--link-color);
 }  
 
