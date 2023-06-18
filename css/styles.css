@@ -76,7 +76,7 @@ color: var(--grey-color);
 
 
 .hero-section, .footer-section {
-background: var(--title-color-black);
+background-color: var(--title-color-black);
 }
 
 .hero-title {
@@ -89,7 +89,7 @@ color: var(--title-color);
 
 }
 .hero-button {
-background: var(--accent-color);
+background-color: var(--accent-color);
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
@@ -98,7 +98,7 @@ cursor: pointer;
 }
 
 .hero-btn:hover, .hero-btn:focus {
-background: var(--link-color);
+background-color: var(--link-color);
 }
 .card-title {
 font-weight: 500;
@@ -115,10 +115,10 @@ color: var(--grey-color);
 }
 
 .team-section {
-background: var(--accent-color-white);
+background-color: var(--accent-color-white);
 }
 .section {
-background: var(--title-color));
+background-color: var(--title-color);
 }
 
 .subtitle {
@@ -141,7 +141,7 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.04em;
 color: var(--accent-color);
-background: var(--accent-color-white);
+background-color: var(--accent-color-white);
 border: 1px solid var(--border-color);
 cursor: pointer;
 
