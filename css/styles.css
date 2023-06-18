@@ -47,7 +47,7 @@ text-transform: uppercase;
 text-decoration: none;
 }
 .logo {
-color: var(--main-color);
+color: var(--title-color-black);
 }
 .logo-accent {
 color: var(--accent-color);
@@ -127,7 +127,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: var(--main-color);
+color: var(--title-color-black);
 }
 
 .team-title {
