@@ -36,11 +36,9 @@ color: var(--grey-color);
 .header-logo {
 font-family: "Raleway", sans-serif;
 color: var(--accent-color);
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
  line-height: 1.17;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;  
 
@@ -49,7 +47,7 @@ text-transform: uppercase;
 text-decoration: none;
 }
 .logo {
-    color: var(--main-color);
+color: var(--main-color);
 }
 .logo-accent {
 color: var(--accent-color);
@@ -85,7 +83,7 @@ background: var(--main-color);
 font-size: 56px;
 line-height: 60px;
 text-align: center;
-letter-spacing: 1.02;
+letter-spacing: 0.02;
 line-height: 1.07;
 color: var(--title-color);
 
@@ -129,6 +127,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+color: var(--main-color);
 }
 
 .team-title {
@@ -166,5 +165,5 @@ color: var(--title-color);
 background-color: var(--link-color);
 }
 .list {
-    list-style: none;
+list-style: none;
 }
